@@ -3,12 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template</title>
+    <title>Infinite scroll</title>
     <link rel="icon" type="image/png" href="images/favicon.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/> -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>UNSPLASH API - INFINITE SCROLL</h1>
+    <div class="loader" id="loader" hidden>
+        <img src="scroll.svg" alt="loading">
+    </div>
+    <div class="image-container" id="image-container">
+        <img src="https://images.unsplash.com/photo-1715769274428-6a833e1ad625?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDZ8NnNNVmpUTFNrZVF8fGVufDB8fHx8fA%3D%3D" alt="">
+        <img src="https://images.unsplash.com/photo-1715769274428-6a833e1ad625?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDZ8NnNNVmpUTFNrZVF8fGVufDB8fHx8fA%3D%3D" alt="">
+        <img src="https://images.unsplash.com/photo-1715769274428-6a833e1ad625?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDZ8NnNNVmpUTFNrZVF8fGVufDB8fHx8fA%3D%3D" alt="">
+    </div>
     <!-- Script -->
     <script src="script.js"></script>
 </body>
